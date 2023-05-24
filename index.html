@@ -541,6 +541,28 @@
          
 
         </div>
+
+        <form class="form-list-footer"> 
+        <label for="subscribe" class="subscribe">
+                <span class="subscribe-text"> Subscribe </span>
+                <input type="email" name="subscribe" autocomplete="on" placeholder="E-mail" class="form-footer" id="subscribe">
+                
+        </label>
+        
+          
+          <div class="container-button-futter">
+            <button type="submit" class="btn-form-footter">
+              Subscribe
+            </button>
+            <svg width="24" height="20" class="icon-btn-footter">
+              <use href="./images/icons.svg#icon-fly-litac">
+            
+              </use>
+            </svg>
+          </div>
+
+        </form>
+
         </div>
       
     </footer>
@@ -553,7 +575,9 @@
   <div class="modal ">
     <button type="button" class="close-model-btn btn-model" data-modal-close>
       <svg width="8" height="8" class="svg-modal-btn">
-        <use href="./images/icons.svg#icon-close-black"></use>
+        <use href="./images/icons.svg#icon-close-black">
+
+        </use>
       </svg>
     </button>
 
@@ -565,16 +589,40 @@
         <div class="container-form-components">
           <label for="name" class="form-text-clue">Name</label>
           <input class="input-user" type="text" name="user-name" required autocomplete="on" id="name">
+
+          
+            <svg width="18" height="24" class="icons-svg-form" >
+              <use href="./images/icons.svg#icon-user">
+          
+              </use>
+            </svg>
+          
         </div>
         
         <div class="container-form-components">
-          <label for="phone" class="form-text-clue">Phote</label>
+          <label for="phone" class="form-text-clue">Phone</label>
           <input class="input-user" type="tel" name="user-tel" required autocomplete="on" id="phone">
+
+          
+            <svg width="18" height="24" class="icons-svg-form">
+              <use href="./images/icons.svg#icon-phone">
+          
+              </use>
+            </svg>
+          
         </div>
         
         <div class="container-form-components">
           <label for="email" class="form-text-clue">E-mail</label>
           <input class="input-user" type="email" name="user-mail" required autocomplete="on" id="email">
+
+          
+            <svg width="18" height="24" class="icons-svg-form">
+              <use href="./images/icons.svg#icon-email">
+          
+              </use>
+            </svg>
+          
         </div>
         
         <div class="container-form-components">
@@ -583,12 +631,27 @@
         </div>
         
       <div class="container-form-checkbox">
-        <input type="checkbox" name="accept" id="accept" class="accept">
-        <label for="accept" class="accept-text">I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
+        
+        <label for="accept" class="accept-text">
+          <input type="checkbox" name="accept" id="accept" class="accept" value="accept">
+          <svg width="10" height="8" class="icons-accept">
+            <use class="is-hidden-icon-checkbox" href="./images/icons.svg#icon-checkbox">
+          
+            </use>
+          </svg>
+          I accept the terms and conditions of the <a href="#">Privacy Policy</a>
+        
+       </label>
+        
+          
+           
+          
+        
       </div>
-      
+        <button type="submit" class="send-btn-form">Send</button>
        </fieldset>
       </form>
+     
 
     
   </div>
