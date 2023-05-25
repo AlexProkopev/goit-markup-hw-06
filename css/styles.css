@@ -87,6 +87,7 @@ body {
   --color-icon: #f4f4fd;
   --color-icon-costumers: #8e8f99;
   --form-text-color: #8e8f99;
+  --white-color: #ffffff;
 }
 
 /* Контейнер */
@@ -989,10 +990,10 @@ body {
   height: 40px;
   padding-left: 38px;
 
-  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(46, 47, 66, 0.2);
 }
 
 .input-user:focus {
@@ -1038,7 +1039,7 @@ body {
 }
 
 .comment-form {
-  outline: none;
+  outline: transparent;
   border: none;
 
   font-size: 12px;
@@ -1051,7 +1052,7 @@ body {
   background-color: transparent;
   resize: none;
 
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.2);
   border-radius: 4px;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1102,7 +1103,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  border: 1px solid #8e8f99;
+  border: 1px solid #2e2f42;
   border-radius: 2px;
   width: 16px;
   height: 16px;
@@ -1162,6 +1163,8 @@ body {
 
 .accept:checked + .accept-text .span-form-svg-privacy {
   background-color: var(--acsent-color);
+  fill: var(--white-color);
+  border-color: var(--acsent-color);
 }
 
 .accept:checked + .accept-text .span-form-svg-privacy .is-hidden-icon-checkbox {
