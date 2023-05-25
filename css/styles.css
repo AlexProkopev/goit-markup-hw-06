@@ -1163,7 +1163,7 @@ body {
 
 .accept:checked + .accept-text .span-form-svg-privacy {
   border: none;
-  background-color: var(--acsent-color);
+  border-color: var(--acsent-color);
   fill: var(--white-color);
   border-color: var(--acsent-color);
 }
