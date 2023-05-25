@@ -480,7 +480,7 @@
 
     <!-- ------------------МОДЕЛЬНОЕ ОКНО----------------- -->
 
-    <div class="backdrop is-hidden " data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button
           type="button"
@@ -494,22 +494,28 @@
 
         <p class="title-modal">Leave your contacts and we will call you back</p>
 
-        
-             <form>
+        <form>
           <div class="list-form">
-              <label for="user-name" class="form-text-clue">Name</label>
-              <div class="container-icon-input">
-                <input class="input-user" type="text" name="user-name" required autocomplete="on" id="user-name" />
-                
-                <svg width="18" height="24" class="icons-svg-form">
-                  <use href="./images/icons.svg#icon-user"></use>
-                </svg>
-              </div>
-           </div>
+            <label for="user-name" class="form-text-clue">Name</label>
+            <div class="container-icon-input">
+              <input
+                class="input-user"
+                type="text"
+                name="user-name"
+                required
+                autocomplete="on"
+                id="user-name"
+              />
 
-            <div class="list-form">
-              <label for="phone" class="form-text-clue">Phone</label>
-              <div class="container-icon-input">
+              <svg width="18" height="24" class="icons-svg-form">
+                <use href="./images/icons.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="list-form">
+            <label for="phone" class="form-text-clue">Phone</label>
+            <div class="container-icon-input">
               <input
                 class="input-user"
                 type="tel"
@@ -523,51 +529,62 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
+          </div>
+
+          <div class="list-form">
+            <label for="email" class="form-text-clue">Email</label>
+            <div class="container-icon-input">
+              <input
+                class="input-user"
+                type="email"
+                name="user-mail"
+                required
+                autocomplete="on"
+                id="email"
+              />
+
+              <svg width="18" height="24" class="icons-svg-form">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
             </div>
-            
-              
-            
-             <div class="list-form">
-              <label for="email" class="form-text-clue">Email</label>
-              <div class="container-icon-input">
-                <input class="input-user" type="email" name="user-mail" required autocomplete="on" id="email" />
-              
-                <svg width="18" height="24" class="icons-svg-form">
-                  <use href="./images/icons.svg#icon-email"></use>
+          </div>
+
+          <div class="container-texteria">
+            <label for="user-comment" class="form-text-clue">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="comment-form"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <div class="container-accept">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              class="accept visually-hidden"
+              value="true"
+            />
+            <label for="user-privacy" class="accept-text">
+              <span class="span-form-svg-privacy">
+                <svg width="10" height="8" class="icons-accept">
+                  <use
+                    class="is-hidden-icon-checkbox"
+                    href="./images/icons.svg#icon-checkbox"
+                  ></use>
                 </svg>
-              </div>
-             </div>
-            
+              </span>
+              I accept the terms and conditions of the
+              <a href="#" class="privacy-link">Privacy Policy</a>
+            </label>
+          </div>
 
-            
-              <div class="container-texteria">
-                <label for="user-comment" class="form-text-clue">Comment</label>
-                <textarea name="user-comment" id="user-comment" class="comment-form" placeholder="Text input"></textarea>
-              </div>
-            
-
-            
-              <div class="container-accept">
-                  <input type="checkbox" name="user-privacy"  id="user-privacy" class="accept visuall-hidden" value="true" />
-                  <label for="user-privacy" class="accept-text ">
-                    <span class="span-form-svg-privacy">
-                         <svg width="10" height="8" class="icons-accept">
-                         <use class="is-hidden-icon-checkbox" href="./images/icons.svg#icon-checkbox"></use>
-                     </svg>
-                    </span>
-                    I accept the terms and conditions of the
-                    <a href="#" class="privacy-link">Privacy Policy</a>
-                  </label>
-              </div>
-            
-            <button type="submit" class="send-btn-form">Send</button>
-         
+          <button type="submit" class="send-btn-form">Send</button>
         </form>
-
-        </div>
-        </div>
-      
-    
+      </div>
+    </div>
 
     <!-- -----------СКРИПТ МОДЕЛЬНОГО ОКНА---------------- -->
 
