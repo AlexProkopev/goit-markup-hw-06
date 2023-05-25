@@ -966,6 +966,9 @@ body {
   flex-direction: column;
   gap: 8px;
 } */
+.list-form {
+  margin-bottom: 8px;
+}
 
 /* 
 .icons-form {
